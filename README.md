@@ -8,7 +8,17 @@ inspection promotes consistent adherence to this practice.
 
 **Current status:** This is a pre-alpha proof of concept.
 
-As an example, consider the code below, which is a common pattern:
+## Installation
+
+1. Download the latest [release](https://github.com/paj28/lazy-coach/releases)
+2. Within *Settings &rarr; Plugins* choose *Install Plugin from Disk*
+![image](images/install-from-disk.png)
+3. Within *Settings &rarr; Editor &rarr; Inspections*, enable *Exposed &rarr; Lazy Loading*
+![image](images/enable-inspection.png)
+
+## Usage
+
+Consider the code below, which is a common pattern:
 
 ```kotlin
 object Users: IntIdTable() {
